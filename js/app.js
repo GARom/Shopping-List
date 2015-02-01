@@ -7,7 +7,7 @@ window.onload = function() {
 
 
 function add_to_shopping_list_button() {
-  var newItem = new new_shopping_list_item(
+  var newItem = new ShoppingListItem(
     document.forms[0].title.value,
     document.forms[0].description.value
     );
